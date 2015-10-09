@@ -1,10 +1,12 @@
-﻿<div id="carousel_container">
+﻿@using Kartisiot.Models;
+
+<div id="carousel_container">
     <div class="carousel">
-        @for (var i = 0; i < 4; i++)
+        @foreach (var slide in SlideViewModels.AllCategories[0].Slides)
         {
             <div class="slide">
-                <div class="slide-text">טוֹב אֶרֶךְ אַפַּיִם מִגִּבּוֹר וּמֹשֵׁל בְּרוּחוֹ מִלֹּכֵד עִיר.</div>
-                <img class="slide-img" src="~/Content/Images/cold-as-ice-1358993-1279x962.jpg" />              
+                <div class="slide-text">@(slide.SlideText)</div>
+                <img class="slide-img" src="~/Content/Images/@(slide.SlideImageSrc)" />              
             </div>
         }
 
@@ -17,7 +19,7 @@
         $(".carousel").owlCarousel({
             "singleItem": true,
             "navigation": true,
-            "slideSpeed": 400,
+            "slideSpeed": 1000,
         });
     });
 
