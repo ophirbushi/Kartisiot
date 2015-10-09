@@ -97,6 +97,8 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\kartisiot - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\kartisiot - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
