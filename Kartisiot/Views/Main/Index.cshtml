@@ -1,2 +1,24 @@
-﻿<h2>Kartisiot</h2>
+﻿<div id="carousel_container">
+    <div class="carousel">
+        @for (var i = 0; i < 4; i++)
+        {
+            <div class="slide">
+                <div class="slide-text">טוֹב אֶרֶךְ אַפַּיִם מִגִּבּוֹר וּמֹשֵׁל בְּרוּחוֹ מִלֹּכֵד עִיר.</div>
+                <img class="slide-img" src="~/Content/Images/cold-as-ice-1358993-1279x962.jpg" />              
+            </div>
+        }
 
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".carousel").owlCarousel({
+            "singleItem": true,
+            "navigation": true,
+            "slideSpeed": 400,
+        });
+    });
+
+</script>

@@ -1,19 +1,22 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="he">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>כרטיסיות</title>
+
+    <link href="~/Content/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/owl.theme.css" rel="stylesheet" />
     <link href="~/Content/site.css" rel="stylesheet" type="text/css" />
+
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/owl.carousel.min.js"></script>
 </head>
 <body>
-    <header id="header">
-        HEADER
-    </header>
-    <div class="container body-content">
+    <header id="header"></header>
+    <div class="body_content">
         @RenderBody()
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 </body>
 </html>

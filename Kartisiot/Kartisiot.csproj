@@ -89,14 +89,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\cold-as-ice-1358993-1279x962.jpg" />
+    <Content Include="Content\owl.carousel.css" />
+    <Content Include="Content\owl.theme.css" />
     <Content Include="Content\site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\owl.carousel.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="Scripts\slick.js" />
+    <Content Include="Scripts\_references.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
